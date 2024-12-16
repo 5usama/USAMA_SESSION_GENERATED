@@ -76,7 +76,32 @@ router.get('/', async (req, res) => {
                     await GlobalTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await GlobalTechInc.sendMessage(userJid, { text: 'HELLO THERE! 👋 \n\nDO NOT SHARE YOUR SESSION ID WITH ANYONE.\n\nPUT THE ABOVE IN SESSION_ID VAR\n\nTHANKS FOR USING TOHID_MD BOT\n\n JOIN SUPPORT CHANNEL:-https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T \n' });
+                    await GlobalTechInc.sendMessage(userJid, { text: `
+*SESSION GENERATED SUCCESSFULY* ✅
+
+*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/Tohidkhan6332/TOHID-KHAN
+
+*Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ* 🌟
+https://t.me/Tohid_Tech
+
+*WʜᴀᴛsAᴘᴘ Gʀᴏᴜᴘ* 🌟
+https://chat.whatsapp.com/IqRWSp7pXx8DIMtSgDICGu
+
+*WʜᴀᴛsAᴘᴘ ᴄʜᴇɴɴᴀʟ* 🌟
+https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
+
+*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🌟 
+https://youtube.com/Tohidkhan_6332
+
+*ɢɪᴛʜᴜʙ* 🌟
+http://GitHub.com/Tohidkhan6332
+
+*Wᴇʙsɪᴛᴇ* 🌟
+https://tohid-khan-web.vercel.app/
+
+*TOHID-KHAN--WHATTSAPP-BOT* 🥀
+` });
 
                     // Clean up session after use
                     await delay(100);
