@@ -2,4 +2,4 @@
 
 -----------
 
-***MADE FOR TOHID_MD WHATSAPP BOT***
+***MADE FOR USAMA_MD WHATSAPP BOT***
