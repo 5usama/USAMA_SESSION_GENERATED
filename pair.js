@@ -80,27 +80,20 @@ router.get('/', async (req, res) => {
 *SESSION GENERATED SUCCESSFULY* ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/Tohidkhan6332/TOHID-KHAN
+https://github.com/5usama
 
 *Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ* 🌟
-https://t.me/Tohid_Tech
+https://t.me/UsamaDhuddi960
 
-*WʜᴀᴛsAᴘᴘ Gʀᴏᴜᴘ* 🌟
-https://chat.whatsapp.com/IqRWSp7pXx8DIMtSgDICGu
 
 *WʜᴀᴛsAᴘᴘ ᴄʜᴇɴɴᴀʟ* 🌟
-https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
-
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🌟 
-https://youtube.com/Tohidkhan_6332
+https://whatsapp.com/channel/0029VavSK8U8fewp1htKiS21
 
 *ɢɪᴛʜᴜʙ* 🌟
-http://GitHub.com/Tohidkhan6332
+http://GitHub.com/5usama
 
-*Wᴇʙsɪᴛᴇ* 🌟
-https://tohid-khan-web.vercel.app/
 
-*TOHID-KHAN--WHATTSAPP-BOT* 🥀
+*USAMA-MD--WHATTSAPP-BOT* 🥀
 ` });
 
                     // Clean up session after use
