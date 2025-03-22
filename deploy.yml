@@ -1,0 +1,26 @@
+name: Deploy WhatsApp Bot
+
+on:
+  push:
+    branches:
+      - main  # Jab bhi `main` branch par push hoga, deploy trigger hoga
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository Clone
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'yarn'  # Tumhari bot `yarn` use karti hai
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Start Bot
+        run: yarn start  # Ensure tumhari `package.json` mein `"start"` script ho
